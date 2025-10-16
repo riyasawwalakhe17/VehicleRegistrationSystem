@@ -17,6 +17,7 @@ public class GetDeleteDataById {
 		Vehicles  vehicles= session.find(Vehicles.class, 1);
 		session.remove(vehicles);
 
+		System.out.println("Data deleted successfully");
 		transaction.commit();
 		session.close();
 	}
