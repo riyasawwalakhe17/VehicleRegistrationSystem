@@ -62,6 +62,7 @@ public static void main(String[] args) {
 		vehicles.setVehicleName("Car");
 		vehicles.setrEntry(rList);
 		
+		System.out.println("Data saved successfully");
 		session.persist(vehicles);
 		transaction.commit();
 		session.close();
