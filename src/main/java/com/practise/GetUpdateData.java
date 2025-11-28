@@ -35,7 +35,7 @@ public class GetUpdateData {
 		v.setVehicleNo("MH12AB1234");
 		v.setrEntry(rList);
 		
-		System.out.println("Data updated successfully");
+		System.out.println("Vehicle Data updated successfully");
         session.persist(v);
 		transaction.commit();
 		session.close();
